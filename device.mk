@@ -5,14 +5,14 @@
 #
 
 ## Device Path
-DEVICE_PATH := device/samsung/a6lte
+DEVICE_PATH := device/samsung/a3y17lte
 
 ## Inherit common device
 $(call inherit-product, device/samsung/exynos7870-common/exynos7870.mk)
 
 # Display
 TARGET_SCREEN_DENSITY := 320
-TARGET_SCREEN_HEIGHT := 1480
+TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Overlays

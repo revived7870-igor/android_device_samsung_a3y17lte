@@ -5,10 +5,10 @@
 //
 
 cc_library_static {
-    name: "libinit_a6lte",
+    name: "libinit_a3y17lte",
     recovery_available: true,
     shared_libs: ["libbase"],
-    srcs: ["init_a6lte.cpp"],
+    srcs: ["init_a3y17lte.cpp"],
     include_dirs: [
         "system/core/base/include",
         "system/core/init"

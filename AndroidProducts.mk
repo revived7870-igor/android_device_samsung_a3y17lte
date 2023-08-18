@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a6lte.mk
+    $(LOCAL_DIR)/lineage_a3y17lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a6lte-eng \
-    lineage_a6lte-user \
-    lineage_a6lte-userdebug
+    lineage_a3y17lte-eng \
+    lineage_a3y17lte-user \
+    lineage_a3y17lte-userdebug

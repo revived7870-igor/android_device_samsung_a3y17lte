@@ -1,1 +1,1 @@
-# Device Tree for Samsung Galaxy A6 2018 (a6lte)
+# Device Tree for Samsung Galaxy A3 2017 (a3y17lte)
