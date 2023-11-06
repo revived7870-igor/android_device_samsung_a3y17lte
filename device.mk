@@ -10,6 +10,11 @@ DEVICE_PATH := device/samsung/a3y17lte
 ## Inherit common device
 $(call inherit-product, device/samsung/exynos7870-common/exynos7870.mk)
 
+# Init
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/init/fstab.samsungexynos7870:$(TARGET_COPY_OUT_RAMDISK)/fstab.samsungexynos7870 \
+    $(DEVICE_PATH)/init/fstab.samsungexynos7870:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.samsungexynos7870
+
 # Display
 TARGET_SCREEN_DENSITY := 320
 TARGET_SCREEN_HEIGHT := 1280
