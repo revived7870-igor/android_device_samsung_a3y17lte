@@ -10,6 +10,9 @@ DEVICE_PATH := device/samsung/a3y17lte
 ## Inherit common device
 $(call inherit-product, device/samsung/exynos7870-common/exynos7870.mk)
 
+## Inherit device vendor blobs
+$(call inherit-product, vendor/samsung/a3y17lte/a3y17lte-vendor.mk)
+
 # Init
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/init/fstab.samsungexynos7870:$(TARGET_COPY_OUT_RAMDISK)/fstab.samsungexynos7870 \
