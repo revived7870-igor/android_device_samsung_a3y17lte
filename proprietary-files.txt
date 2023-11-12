@@ -1,0 +1,39 @@
+#
+# Vendor blobs for a3y17lte - A320FXXS8CTI4
+#
+
+# Camera
+vendor/lib/hw/camera.exynos7870.so
+vendor/lib/libexynoscamera.so
+vendor/lib/libexynoscamera3.so
+vendor/lib/libsensorlistener.so
+vendor/lib/libstainkiller.so
+vendor/lib/libuniplugin.so
+
+# Bluetooth
+vendor/firmware/nvm_tlv_tf_1.1.bin
+vendor/firmware/rampatch_tlv_tf_1.1.tlv
+
+# Firmware
+vendor/firmware/setfile_imx219.bin
+vendor/firmware/setfile_imx258.bin
+
+# NFC
+vendor/firmware/nfc/sec_s3nrn81_firmware.bin
+
+# Sensors
+vendor/lib/hw/sensors.universal7870.so
+
+# Wifi
+vendor/firmware/bdwlan30.bin
+vendor/firmware/bdwlan32.bin
+vendor/firmware/Data.msc
+vendor/firmware/otp30.bin
+vendor/firmware/qwlan30.bin
+vendor/firmware/qwlan30_ibss.bin
+vendor/firmware/utf30.bin
+vendor/firmware/utfbd30.bin
+vendor/firmware/utfbd32.bin
+
+# wcnss_filter - for Bluetooth - not from any stock firmware, built from source
+vendor/bin/wcnss_filter
