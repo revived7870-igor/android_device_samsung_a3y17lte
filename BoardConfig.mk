@@ -17,9 +17,6 @@ BOARD_HAS_QCA_BT_ROME := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth
 QCOM_BT_USE_SMD_TTY := true
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_a3y17lte
-
 # Kernel
 TARGET_KERNEL_CONFIG := exynos7870-a3y17lte_defconfig
 
