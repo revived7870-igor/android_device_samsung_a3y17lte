@@ -18,8 +18,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_a3y17lte
 PRODUCT_DEVICE := a3y17lte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := Galaxy A3 2017
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MODEL := SM-A320F
+PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 PRODUCT_SHIPPING_API_LEVEL := 26
 
