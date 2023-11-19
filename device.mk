@@ -15,8 +15,8 @@ $(call inherit-product, vendor/samsung/a3y17lte/a3y17lte-vendor.mk)
 
 # Init
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/init/fstab.samsungexynos7870:$(TARGET_COPY_OUT_RAMDISK)/fstab.samsungexynos7870 \
-    $(DEVICE_PATH)/init/fstab.samsungexynos7870:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.samsungexynos7870
+    $(DEVICE_PATH)/configs/init/fstab.samsungexynos7870:$(TARGET_COPY_OUT_RAMDISK)/fstab.samsungexynos7870 \
+    $(DEVICE_PATH)/configs/init/fstab.samsungexynos7870:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.samsungexynos7870
 
 # Display
 TARGET_SCREEN_DENSITY := 320
