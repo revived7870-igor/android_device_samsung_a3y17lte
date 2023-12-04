@@ -18,7 +18,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/init/fstab.samsungexynos7870:$(TARGET_COPY_OUT_RAMDISK)/fstab.samsungexynos7870 \
     $(DEVICE_PATH)/configs/init/fstab.samsungexynos7870:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.samsungexynos7870 \
     $(DEVICE_PATH)/configs/init/init.a3y17lte.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a3y17lte.rc \
-    $(DEVICE_PATH)/configs/init/init.baseband.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baseband.rc
+    $(DEVICE_PATH)/configs/init/init.baseband.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baseband.rc \
+    $(DEVICE_PATH)/configs/init/wifi_qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_qcom.rc \
+    $(DEVICE_PATH)/configs/init/wifi_sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_sec.rc
 
 # Display
 TARGET_SCREEN_DENSITY := 320
@@ -27,6 +29,18 @@ TARGET_SCREEN_WIDTH := 720
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
+
+# WCNSS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/wifi/grippower.info:system/etc/firmware/wlan/grippower.info \
+    $(LOCAL_PATH)/configs/wifi/qcom_cfg.ini:system/etc/firmware/wlan/qcom_cfg.ini \
+    $(LOCAL_PATH)/configs/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/WCNSS_cfg.dat \
+    $(LOCAL_PATH)/configs/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info
+
+# WiFi
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
+    $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
