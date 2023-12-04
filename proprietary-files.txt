@@ -34,6 +34,3 @@ vendor/firmware/qwlan30_ibss.bin
 vendor/firmware/utf30.bin
 vendor/firmware/utfbd30.bin
 vendor/firmware/utfbd32.bin
-
-# wcnss_filter - for Bluetooth - not from any stock firmware, built from source
-vendor/bin/wcnss_filter
