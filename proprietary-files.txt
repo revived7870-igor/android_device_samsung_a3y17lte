@@ -35,5 +35,5 @@ vendor/firmware/qwlan30_ibss.bin
 vendor/firmware/utf30.bin
 vendor/firmware/utfbd30.bin
 vendor/firmware/utfbd32.bin
-vendor/firmware/utfbd30_OLD.bin5eb5823f9349c64797cffbf5f3386b355777d309
+vendor/firmware/utfbd30_OLD.bin|5eb5823f9349c64797cffbf5f3386b355777d309
 vendor/firmware/bdwlan30_OLD.bin|5eb5823f9349c64797cffbf5f3386b355777d309
