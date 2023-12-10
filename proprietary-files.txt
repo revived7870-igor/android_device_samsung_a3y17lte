@@ -30,6 +30,8 @@ vendor/firmware/rampatch_tlv_tf_1.1.tlv:vendor/etc/firmware/rampatch_tlv_tf_1.1.
 # Firmware
 vendor/firmware/setfile_imx219.bin
 vendor/firmware/setfile_imx258.bin
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/mfc_fw.bin
 
 # NFC
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
