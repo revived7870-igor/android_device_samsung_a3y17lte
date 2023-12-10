@@ -2,6 +2,11 @@
 # Vendor blobs for a3y17lte - A320FXXS8CTI4
 #
 
+
+# Audio
+system/lib/libtfa98xx.so:vendor/lib/libtfa98xx.so
+vendor/etc/Tfa9896.cnt
+
 # Bluetooth
 lib/libantradio.so:vendor/lib/libantradio.so|6ba4e06283a7fd554e2b635762033727fef487b9
 lib64/libantradio.so:vendor/lib64/libantradio.so|63ca9d1455ad2b707cbcd1ee059b9bf0f6a2d001
@@ -40,6 +45,7 @@ vendor/firmware/nfc/sec_s3nrn81_firmware.bin
 vendor/lib/libsensorlistener.so
 vendor/lib/hw/sensors.universal7870.so
 
+# 
 # Wifi
 vendor/firmware/bdwlan30.bin
 vendor/firmware/bdwlan32.bin
