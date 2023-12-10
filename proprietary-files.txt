@@ -2,6 +2,19 @@
 # Vendor blobs for a3y17lte - A320FXXS8CTI4
 #
 
+# Bluetooth
+lib/libantradio.so:vendor/lib/libantradio.so|6ba4e06283a7fd554e2b635762033727fef487b9
+lib64/libantradio.so:vendor/lib64/libantradio.so|63ca9d1455ad2b707cbcd1ee059b9bf0f6a2d001
+lib/com.qualcomm.qti.ant@1.0.so:vendor/lib/com.qualcomm.qti.ant@1.0.so|44cd66e9b5fb824e32f4ec42532d7c08173fe57c
+lib64/com.qualcomm.qti.ant@1.0.so:vendor/lib64/com.qualcomm.qti.ant@1.0.so|b7957dc046f97f684e7b1636ba9906a41643fea2
+lib/vendor.samsung.hardware.bluetooth@1.0.so:vendor/lib/vendor.samsung.hardware.bluetooth@1.0.so|af4230483300f35ac585ec3aea9cc9b296d9e808
+lib64/vendor.samsung.hardware.bluetooth@1.0.so:vendor/lib64/vendor.samsung.hardware.bluetooth@1.0.so|eb8ac867fa8bee1347e97ded7af6944d4b737943
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|8a5a2ca1a6733f23a5993dd51ac4dc02bcc0289a
+vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so|a66192612453443f62117ddfe29187093109efcb
+vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|dbba5cc908117dc20116d5e51bda4ff40a5e60a7
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|ace882ceff7315ce12792db1fd99d9d4f4c1dd71
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|cd5c2f97162e12c5a8e71de12f64497f06a510ba
+
 # Camera
 vendor/lib/hw/camera.exynos7870.so
 vendor/lib/libexynoscamera.so
@@ -11,8 +24,8 @@ vendor/lib/libstainkiller.so
 vendor/lib/libuniplugin.so
 
 # Bluetooth
-vendor/firmware/nvm_tlv_tf_1.1.bin
-vendor/firmware/rampatch_tlv_tf_1.1.tlv
+vendor/firmware/nvm_tlv_tf_1.1.bin:vendor/etc/firmware/nvm_tlv_tf_1.1.bin
+vendor/firmware/rampatch_tlv_tf_1.1.tlv:vendor/etc/firmware/rampatch_tlv_tf_1.1.tlv
 
 # Firmware
 vendor/firmware/setfile_imx219.bin
@@ -37,3 +50,4 @@ vendor/firmware/utfbd30.bin
 vendor/firmware/utfbd32.bin
 vendor/firmware/utfbd30_OLD.bin|5eb5823f9349c64797cffbf5f3386b355777d309
 vendor/firmware/bdwlan30_OLD.bin|5eb5823f9349c64797cffbf5f3386b355777d309
+

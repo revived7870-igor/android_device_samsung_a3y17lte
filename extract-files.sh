@@ -16,6 +16,12 @@ function blob_fixup() {
             "$PATCHELF" --add-needed "libshim_sensorndkbridge.so" "$2"
             "$PATCHELF" --remove-needed "libandroid.so" "$2"
             ;;
+	vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so)
+        sed -i "s|/system/etc/firmware|/vendor/etc/firmware|g" "${2}"
+            ;;
+        vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so)
+        sed -i "s|/system/etc/firmware|/vendor/etc/firmware|g" "${2}"
+
     esac
 }
 
