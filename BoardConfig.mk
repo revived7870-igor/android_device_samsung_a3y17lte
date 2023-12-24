@@ -10,6 +10,9 @@ DEVICE_PATH := device/samsung/a3y17lte
 ## Include common BoardConfig
 include device/samsung/exynos7870-common/BoardConfigCommon.mk
 
+# Manifest
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := exynos7870-a3y17lte_defconfig
 
