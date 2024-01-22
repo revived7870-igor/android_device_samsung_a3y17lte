@@ -38,6 +38,20 @@ vendor/firmware/setfile_imx258.bin
 vendor/firmware/fimc_is_lib.bin
 vendor/firmware/mfc_fw.bin
 
+# GPS
+vendor/bin/hw/gpsd
+vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
+vendor/etc/gnss/ca.pem
+vendor/etc/gnss/gps.cfg
+vendor/etc/init/init.gps.rc
+vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
+vendor/lib/libwrappergps.so
+vendor/lib/vendor.samsung.hardware.gnss@2.0.so
+vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib64/libwrappergps.so
+vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
+
 # NFC
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
 
