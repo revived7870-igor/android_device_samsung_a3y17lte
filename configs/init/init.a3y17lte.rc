@@ -152,5 +152,5 @@ service start_hci_filter /system/bin/wcnss_filter
 on fs
     chown radio system /efs
 
-on property:ro.multisim.simslotcount=*
-   write /sys/module/modem_ctrl_ss310ap/parameters/ds_detect ${ro.multisim.simslotcount}
+on property:ro.vendor.multisim.simslotcount=*
+   write /sys/module/modem_ctrl_ss310ap/parameters/ds_detect ${ro.vendor.multisim.simslotcount}
