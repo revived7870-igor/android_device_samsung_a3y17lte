@@ -13,6 +13,9 @@ $(call inherit-product, device/samsung/exynos7870-common/exynos7870.mk)
 ## Inherit device vendor blobs
 $(call inherit-product, vendor/samsung/a3y17lte/a3y17lte-vendor.mk)
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+
 # Init
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/init/fstab.samsungexynos7870:$(TARGET_COPY_OUT_RAMDISK)/fstab.samsungexynos7870 \
