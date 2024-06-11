@@ -24,7 +24,7 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|cd5c2f97162e12c5a8e71
 vendor/lib/hw/camera.exynos7870.so
 vendor/lib/libexynoscamera.so
 vendor/lib/libexynoscamera3.so
-vendor/lib/libsensorlistener.so
+vendor/lib/libsensorlistener.so|f118addff9f0e7b17dffe4c2dd43f5ec8260b008
 vendor/lib/libstainkiller.so
 vendor/lib/libuniplugin.so
 
