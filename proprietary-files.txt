@@ -56,7 +56,6 @@ vendor/lib64/vendor.samsung.hardware.gnss@2.0.so|f92055f58b3acff0a278d347889fa3f
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
 
 # Sensors
-vendor/lib/libsensorlistener.so
 vendor/lib/hw/sensors.universal7870.so
 
 # 
