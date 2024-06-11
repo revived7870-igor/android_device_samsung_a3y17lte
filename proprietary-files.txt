@@ -39,18 +39,18 @@ vendor/firmware/fimc_is_lib.bin
 vendor/firmware/mfc_fw.bin
 
 # GPS
-vendor/bin/hw/gpsd
-vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
-vendor/etc/gnss/ca.pem
-vendor/etc/gnss/gps.cfg
-vendor/etc/init/init.gps.rc
-vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
-vendor/lib/libwrappergps.so
-vendor/lib/vendor.samsung.hardware.gnss@2.0.so
-vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
-vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
-vendor/lib64/libwrappergps.so
-vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
+vendor/bin/hw/gpsd|f43b1eea0d94f8b8422fcc699892d6d715ce11a7
+vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service|cb5e71b6ac6fc8442f27c59a9bc0d4212bbbd8ff
+vendor/etc/gnss/ca.pem|091f828a294b115a0ecf1113da90100144f1704f
+vendor/etc/gnss/gps.cfg|eef8f751a26e029a4fae9243ef72c76faedb844e
+vendor/etc/init/init.gps.rc|de3b6091bd1012207c209d14dc7594742450aeef
+vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc|3325fd400492a99047c6ed563cf6eae6d945aab5
+vendor/lib/libwrappergps.so|392d161ae46826e21089f5163bfcda4f3b700dfc
+vendor/lib/vendor.samsung.hardware.gnss@2.0.so|2bc92e633cb6f4c674cb5a6c493fb712a37971c5
+vendor/lib64/hw/android.hardware.gnss@2.0-impl.so|06142db129be119b4da1a3ad02a3d9c0b8743d50
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so|26d4211dbc6fd325f7dacacec1ccdaadfc53f6c4
+vendor/lib64/libwrappergps.so|26edcf43138e652267d2c30cdfcc1c0f45953a7e
+vendor/lib64/vendor.samsung.hardware.gnss@2.0.so|f92055f58b3acff0a278d347889fa3f60d304abc
 
 # NFC
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
